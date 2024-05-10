@@ -24,5 +24,5 @@ Implement event handlers for the buttons to update the state accordingly.
 Use Bootstrap for styling.
 This mini challenge will help you practice setting up a React component, managing state, handling user events, and applying basic styling. Once you've completed this challenge, you'll have gained valuable experience that will prepare you for building the todo list application.
 
-Peer Review by:
-Comments:
+Peer Review by: Julius
+Comments: Nice styling, and counter won't go below 0 as intended! Everything works and looks great, nice job!
