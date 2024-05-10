@@ -14,6 +14,9 @@ const Content = () => {
         setCounter((prevCount) => prevCount - 1)
     }
     const handleReset = () => {
+        if(counter == 0){
+            return alert("The counter is already at 0 (╯°□°)╯︵ ┻━┻")
+        }
         setCounter(0);
     }
 
@@ -25,9 +28,9 @@ const Content = () => {
         <h2>The Counter is: {counter}</h2>
         </div>
         <div className="btnGroup">
-            <button className="btn btn-success" onClick={handleIncrease}>+</button>
             <button className="btn btn-danger" onClick={handleDecrease}>-</button>
             <button className="btn btn-warning" onClick={handleReset}>Reset</button>
+            <button className="btn btn-success" onClick={handleIncrease}>+</button>
         </div>
         </div>
     </main>
